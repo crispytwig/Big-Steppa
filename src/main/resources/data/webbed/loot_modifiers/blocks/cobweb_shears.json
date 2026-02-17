@@ -1,5 +1,5 @@
 {
-  "type": "bigsteppa:replace_item",
+  "type": "webbed:replace_item",
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",

@@ -1,4 +1,4 @@
-package com.crispytwig.bigsteppa.loot;
+package com.crispytwig.webbed.loot;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;

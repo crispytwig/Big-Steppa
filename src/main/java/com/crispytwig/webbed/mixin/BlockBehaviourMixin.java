@@ -1,4 +1,4 @@
-package com.crispytwig.bigsteppa.mixin;
+package com.crispytwig.webbed.mixin;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.tags.ItemTags;
@@ -17,7 +17,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class BlockBehaviourMixin {
 
     @Inject(method = "getDestroyProgress", at = @At("RETURN"), cancellable = true)
-    private void bigSteppa$cobwebSpeed(BlockState state, Player player, BlockGetter level, BlockPos pos, CallbackInfoReturnable<Float> cir) {
+    private void webbed$cobwebSpeed(BlockState state, Player player, BlockGetter level, BlockPos pos, CallbackInfoReturnable<Float> cir) {
         if (!state.is(Blocks.COBWEB)) return;
         if (!player.getMainHandItem().is(ItemTags.SWORDS) && !player.getMainHandItem().is(Tags.Items.TOOLS_SHEAR)) {
             cir.setReturnValue(Math.min(1.0F, cir.getReturnValue() * 3.0F));

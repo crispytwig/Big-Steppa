@@ -1,7 +1,7 @@
 {
   "replace": false,
   "entries": [
-    "bigsteppa:blocks/cobweb_hand",
-    "bigsteppa:blocks/cobweb_shears"
+    "webbed:blocks/cobweb_hand",
+    "webbed:blocks/cobweb_shears"
   ]
 }
