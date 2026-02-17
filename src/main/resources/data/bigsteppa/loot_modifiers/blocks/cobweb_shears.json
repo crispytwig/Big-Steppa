@@ -1,0 +1,15 @@
+{
+  "type": "bigsteppa:replace_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:blocks/cobweb"
+    },
+    {
+      "ability": "shears_dig",
+      "condition": "neoforge:can_item_perform_ability"
+    }
+  ],
+  "item": "minecraft:cobweb",
+  "count": 1
+}

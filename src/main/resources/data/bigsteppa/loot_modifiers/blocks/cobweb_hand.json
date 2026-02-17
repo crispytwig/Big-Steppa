@@ -1,0 +1,12 @@
+{
+  "type": "bigsteppa:replace_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:blocks/cobweb"
+    }
+  ],
+  "item": "minecraft:string",
+  "count": 1,
+  "chance": 0.5
+}
